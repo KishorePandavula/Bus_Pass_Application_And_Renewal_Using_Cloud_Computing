@@ -1,8 +1,11 @@
 #**Bus Pass Application And Renewal Using Cloud Computing**
+
 **📌 Project Overview**
 A web-based cloud application that digitalizes the entire bus pass application and renewal process — eliminating manual paperwork, long queues, and counter visits. Built as part of MCA final year project at Aurora's PG College, Hyderabad.
 
+
 **🎯 Problem Solved**: Traditional bus pass systems require physical visits, manual data entry, and long processing times. This system moves everything online with cloud storage for scalability and security.
+
 
 
 **✨ Features
@@ -15,12 +18,14 @@ A web-based cloud application that digitalizes the entire bus pass application a
 ✅ Download/View Bus Pass with unique Booking ID
 ✅ Profile Management
 
+
 **🔐 Admin Features**
 
 ✅ Admin Dashboard to manage all requests
 ✅ Approve / Reject bus pass applications
 ✅ View all users and their pass details
 ✅ Role-based Access Control
+
 
 **☁️ Cloud Features**
 
@@ -29,10 +34,13 @@ A web-based cloud application that digitalizes the entire bus pass application a
 ✅ Accessible from any device, anywhere
 
 
+
 **🛠️ Tech Stack**
 LayerTechnologyFrontendHTML5, CSS3, JavaScriptBackendJava, JSP (JavaServer Pages), JDBCDatabaseMySQLServerApache TomcatCloud ConceptVirtualization, Scaling, Load BalancingIDEEclipse / NetBeansVersion ControlGit & GitHub
 
+
 **📁 Project Structure**
+
 BusPassApplication/
 │
 ├── src/
@@ -57,6 +65,7 @@ BusPassApplication/
 │   └── buspass_db.sql            # Database schema & sample data
 │
 └── README.md
+
 
 **🗄️ Database Schema**
 sql-- Users Table
@@ -86,6 +95,7 @@ CREATE TABLE bus_pass (
     FOREIGN KEY (user_id) REFERENCES users(user_id)
 );
 
+
 **🚀 How to Run Locally**
 Prerequisites
 
@@ -94,8 +104,9 @@ Apache Tomcat 9
 MySQL (Port 3306 / 3307)
 Eclipse IDE or NetBeans
 
+
 **Steps**
-bash# 1. Clone the repository
+**bash# 1. Clone the repository**
 git clone https://github.com/KishorePandavula/BusPassApplication.git
 
 # 2. Import project into Eclipse
@@ -116,6 +127,7 @@ String password = "your_password";
 
 # 6. Open browser
 http://localhost:8080/BusPassApplication/
+
 
 
 **📊 System Architecture**
